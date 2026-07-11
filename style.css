@@ -164,4 +164,136 @@ nav .nav-links a:hover {
 }
 /*Speaker section End here*/
 
+/*Pricing section Start here*/
+
+.pricing{
+    padding:100px 0;
+}
+.pricing-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+.pricing-header h2{
+    font-size:48px;
+    font-weight:700;
+    margin-bottom:12px;
+}
+.pricing-header p{
+    color:#6b7280;
+    font-size:18px;
+}
+.pricing-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+.pricing-card{
+    border:1px solid rgb(245, 237, 237);
+    border-radius:12px;
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.pricing-card:hover{
+    border:solid 1px black;
+}
+
+.pricing-card span{
+    color:#6b7280;
+    font-size:14px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+.pricing-card h3{
+    font-size:56px;
+    font-weight:800;
+    margin-top:16px;
+    color:#111827;
+}
+.pricing-card p{
+    color:#6b7280;
+    margin-top:8px;
+    margin-bottom:30px;
+}
+
+.pricing-card ul{
+    padding-left: 20px;
+    margin-bottom:30px;
+}
+
+.pricing-card li{
+    color: #374151;
+    margin-bottom: 16px;
+}
+
+.pricing-card li::marker{
+    color: #2563eb;
+}
+
+.pricing-card .common-btn{
+    width:100%;
+    padding:14px 20px;
+    margin-top:auto;
+}
+
+.featured{
+    background:#0f172a;
+    border-color:#0f172a;
+    color:white;
+}
+
+.featured span{
+    color:#93c5fd;
+}
+.featured h3{
+    color:whitesmoke;
+}
+.featured li{
+    color:#ffffff;
+}
+
+.featured .common-btn{
+    background-color:#2563eb;
+    color:#fff;
+}
+
+.featured .common-btn:hover{
+    background-color:#1d4ed8;
+}
+
+/*Button*/
+.standard-btn{
+    padding: 12px 28px;
+    background-color: transparent;
+    color: blue;
+    border-radius: 8px;
+    border: solid 1px blue;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.standard-btn:hover{
+    background-color: gainsboro;
+}
+
+.team-btn{
+    padding: 12px 28px;
+    background-color: transparent;
+    color: black;
+    border-radius: 8px;
+    border: solid 1px black;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.team-btn:hover{
+    background-color: gainsboro;
+}
+/*Pricing section End here*/
+
+
+
 
