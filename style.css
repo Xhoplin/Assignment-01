@@ -3,15 +3,17 @@
    padding: 0;
    box-sizing: border-box;
 }
-body{
+body {
     font-family: 'Inter', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    width: 100%;
 }
+
 
 .content{
     max-width: 1200px;
     margin: 0 auto;
+    width: 90%;
 }
 
 /* Navigation Bar Styles start*/
@@ -32,35 +34,77 @@ nav .nav-links a{
     text-decoration: none;
     color:#575757;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
 
+}
+
+nav .nav-links a:hover {
+    color: #1d4ed8;
 }
 
 /** Common button styles */
+
 .common-btn{
-    padding: 15px 30px;
-    background-color: #1d4ed8FF;;
+    padding: 12px 28px;
+    background-color: #1d4ed8;
     color: white;
-    border-radius: 10px;
-    border: solid 1px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
     cursor: pointer;
-}   
+}
+
+.common-btn:hover {
+    background-color: #1e40af;
+}
 /* Navigation Bar Styles end*/
 
-/*Hero section srart*/
-.hero-section{
-    background-image:url(./assets/banner.jpg) ;
-    width: 100%;
-    height: 70vh;
 
-    background-position: cover;
+/*Hero section srart*/
+
+.hero-section{
+    background-image: url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
 }
 .hero-overlay {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0.2) 100%);
+    width:100%;
+    min-height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
-/*Hero section srart*/
 
+.hero-content {
+    max-width:750px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:28px;
+}
 
- 
+.hero-content h1 {
+    font-size:64px;
+    font-weight:800;
+    line-height:1.1;
+    color:#fff;
+}
+
+.hero-content h1 span {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.hero-content p {
+    color:#fff;
+    font-size:20px;
+    line-height:1.6;
+    max-width:700px;
+}
+/*Hero section end*/
