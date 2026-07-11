@@ -108,3 +108,60 @@ nav .nav-links a:hover {
     max-width:700px;
 }
 /*Hero section end*/
+
+/*Speaker section start here*/
+
+.speakers{
+    padding: 100px 0px;
+}
+
+.speakers h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.speaker-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr) ;
+    gap:30px;
+}
+
+.speaker-card{
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.speaker-card:hover{
+    border:solid 1px black;
+}
+
+.card-info{
+    padding: 24px;
+}
+
+.card-info span{
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card-info h3{
+    margin-top:12px;
+    font-size:24px;
+    font-weight:700;
+    color:#111827;
+}
+
+.card-info p{
+    margin-top:10px;
+    color:#6b7280;
+    font-size:16px;
+    line-height:1.6;
+}
+/*Speaker section End here*/
+
+
