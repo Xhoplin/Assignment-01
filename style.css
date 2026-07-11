@@ -294,6 +294,75 @@ nav .nav-links a:hover {
 }
 /*Pricing section End here*/
 
+/*Past Highlights Section Start */
+.highlights{
+    padding:100px 0;
+    background:#f8fafc;
+}
+
+.highlights-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.highlights-header h2{
+    font-size:48px;
+    font-weight:700;
+    margin-bottom:16px;
+}
+
+.highlights-header p{
+    font-size:18px;
+    color:#6b7280;
+    max-width:700px;
+    margin:auto;
+    line-height:1.6;
+}
+
+.highlights-container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+}
+
+.highlight-card{
+    background:#fff;
+    padding:40px 20px;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    text-align:center;
+}
+
+.highlight-card:hover{
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.highlight-card h3{
+    font-size:48px;
+    color:#2563eb;
+    margin-bottom:12px;
+}
+
+.highlight-card p{
+    font-size:18px;
+    color:#6b7280;
+}
+
+.highlights-footer{
+    margin-top:70px;
+    text-align:center;
+}
+
+.highlights-footer p{
+    font-size:20px;
+    color:#374151;
+    margin-bottom:30px;
+}
+
+/*Past Highlights Section End */
+
+
+
 
 
 
